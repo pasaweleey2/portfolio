@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:#fff;
+}
+.section{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(110, 110, 110);
+}
+.form{
+  flex: 1;
+  max-width: 600px;
+  border-radius: 6px;
+  background-color: #FFF;
+  margin: 36px auto;
+}
+.divs{
+  padding:5px 0px;
+  background-color:blue;
+}
+.divs h1{
+  font-size: 28px;
+  text-align:center;
+  color:#fff;
+}
+.diving{
+  background: #fff;
+  padding: 20px;
+}
+.row{
+  display:flex; 
+}
+.input1 {
+  flex:1;  
+  display:flex;
+  flex-direction:column; 
+  margin:17px 10px;
+  width: 45%;
+}
+.radio-group label,
+.checkbox-group label{
+  color:#666;
+  cursor:pointer;
+}
+.radio-group label:focus-within{
+  color:blue;
+}
+.radio-group > div{
+  padding: 10px 0 ;
+}
+@media (max-width: 767px) {
+.input-group{
+  width: 100%;
+}
+.signup-form{
+  max-width: 80%;
+}
+}
+.form-footer{
+  display:flex;
+  padding:10px;
+}
+.btn{
+  padding: 14px;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+label{
+color:blue;
+font-weight: bold;
+margin-bottom: 5px;
+position: relative;
+}
+input[type="text"],
+input[type="email"] ,
+input[type="password"],
+input[type="date"],
+select{
+  width: 100%;
+  height: 34px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--dark-blue);
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  outline-color: var(--blue);
+}
+input::placeholder{
+  font-size: 12px;
+}
+.emotion{
+  content: '&#128533;';
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
