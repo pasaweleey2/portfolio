@@ -93,6 +93,7 @@ section {
 }
 
 .main-btn:hover {
+    padding: 1.1975em 2.9875em;
     background-color: #0a49f6;
     transform: scale(1.1);
 }
